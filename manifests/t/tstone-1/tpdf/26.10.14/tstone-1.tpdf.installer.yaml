@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: tstone-1.tpdf
-PackageVersion: 26.10.12
+PackageVersion: 26.10.14
 InstallerType: nullsoft
 Scope: user
 InstallModes:
@@ -10,7 +10,7 @@ InstallModes:
 UpgradeBehavior: install
 Installers:
 - Architecture: x64
-  InstallerUrl: https://github.com/tstone-1/tpdf/releases/download/v26.10.12/tpdf_26.10.12_x64-setup.exe
-  InstallerSha256: F548A70453E44B675E1A134E4C8E0334457EA97FB1CA6D40BFC7BEAD1E118DD2
+  InstallerUrl: https://github.com/tstone-1/tpdf/releases/download/v26.10.14/tpdf_26.10.14_x64-setup.exe
+  InstallerSha256: 82C9078951A120A2D891A3B23703DADD896255C22EDD1570149753A29D28B231
 ManifestType: installer
 ManifestVersion: 1.12.0
